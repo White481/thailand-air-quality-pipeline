@@ -40,7 +40,7 @@ docs/            Data dictionary and incident log
 Requirements: Python 3.11+
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/White481/thailand-air-quality-pipeline.git
 cd thailand-air-quality-pipeline
 python -m venv .venv
 source .venv/bin/activate
