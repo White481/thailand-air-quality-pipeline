@@ -1,0 +1,204 @@
+{
+  "stations": [
+    {
+      "stationID": "119t",
+      "nameTH": "สวนสาธารณะธารา",
+      "nameEN": "Thara Public Park",
+      "areaTH": "ต.ปากน้ำ อ.เมือง, กระบี่",
+      "areaEN": "Pak Nam Subdistrict, Mueang District, Krabi",
+      "stationType": "GROUND",
+      "lat": "8.0506237",
+      "long": "98.9180489",
+      "forecast": [],
+      "AQILast": {
+        "date": "2026-10-24",
+        "time": "03:00",
+        "PM25": {
+          "color_id": "1",
+          "aqi": "16",
+          "value": "9.4"
+        },
+        "PM10": {
+          "color_id": "0",
+          "aqi": "-1",
+          "value": "-1"
+        },
+        "O3": {
+          "color_id": "1",
+          "aqi": "9",
+          "value": "13"
+        },
+        "CO": {
+          "color_id": "1",
+          "aqi": "3",
+          "value": "0.50"
+        },
+        "NO2": {
+          "color_id": "1",
+          "aqi": "0",
+          "value": "0"
+        },
+        "SO2": {
+          "color_id": "1",
+          "aqi": "0",
+          "value": "1"
+        },
+        "AQI": {
+          "color_id": "1",
+          "aqi": "16",
+          "param": "PM25"
+        }
+      }
+    },
+    {
+      "stationID": "bkp100t",
+      "nameTH": "สำนักงานเขตบึงกุ่ม",
+      "nameEN": "Bueng Kum District Office, Bangkok",
+      "areaTH": "แขวงคลองกุ่ม เขตบึงกุ่ม",
+      "areaEN": "Khlong Kum, Bueng Kum, Bangkok",
+      "stationType": "BKK",
+      "lat": "13.785212",
+      "long": "100.669183",
+      "forecast": [],
+      "AQILast": {
+        "date": "2026-10-24",
+        "time": "03:00",
+        "PM25": {
+          "color_id": "4",
+          "aqi": "116",
+          "value": "43.1"
+        },
+        "PM10": {
+          "color_id": "0",
+          "aqi": "-999",
+          "value": "-1"
+        },
+        "O3": {
+          "color_id": "0",
+          "aqi": "-999",
+          "value": "-1"
+        },
+        "CO": {
+          "color_id": "0",
+          "aqi": "-999",
+          "value": "-1"
+        },
+        "NO2": {
+          "color_id": "0",
+          "aqi": "-999",
+          "value": "-1"
+        },
+        "SO2": {
+          "color_id": "0",
+          "aqi": "-999",
+          "value": "-1"
+        },
+        "AQI": {
+          "color_id": "4",
+          "aqi": "116",
+          "param": "PM25"
+        }
+      }
+    },
+    {
+      "stationID": "o63",
+      "nameTH": "ค่ายสุรสิงหนาท",
+      "nameEN": "Khai Surasinghanat",
+      "areaTH": "ต.ตะพง อ.เมือง, ระยอง",
+      "areaEN": "Taphong, Mueang, Rayong",
+      "stationType": "MOBILE",
+      "lat": "12.648576",
+      "long": "101.32245",
+      "forecast": [],
+      "AQILast": {
+        "date": "2026-10-24",
+        "time": "03:00",
+        "PM25": {
+          "color_id": "2",
+          "aqi": "37",
+          "value": "19.5"
+        },
+        "PM10": {
+          "color_id": "0",
+          "aqi": "-999",
+          "value": "-1"
+        },
+        "O3": {
+          "color_id": "0",
+          "aqi": "-999",
+          "value": "-1"
+        },
+        "CO": {
+          "color_id": "0",
+          "aqi": "-999",
+          "value": "-1"
+        },
+        "NO2": {
+          "color_id": "0",
+          "aqi": "-999",
+          "value": "-1"
+        },
+        "SO2": {
+          "color_id": "0",
+          "aqi": "-999",
+          "value": "-1"
+        },
+        "AQI": {
+          "color_id": "2",
+          "aqi": "37",
+          "param": "PM25"
+        }
+      }
+    },
+    {
+      "stationID": "18t",
+      "nameTH": "ศาลากลางจังหวัดสมุทรปราการ ",
+      "nameEN": "City Hall, Samut Prakan",
+      "areaTH": "ต.ปากน้ำ อ.เมือง, สมุทรปราการ",
+      "areaEN": "Pak Nam, Meuang, Samut Prakan",
+      "stationType": "GROUND",
+      "lat": "13.599149",
+      "long": "100.597345",
+      "forecast": [],
+      "AQILast": {
+        "date": "2026-09-10",
+        "time": "21:00",
+        "PM25": {
+          "color_id": "2",
+          "aqi": "45",
+          "value": "23.1"
+        },
+        "PM10": {
+          "color_id": "0",
+          "aqi": "-1",
+          "value": "-1"
+        },
+        "O3": {
+          "color_id": "0",
+          "aqi": "-1",
+          "value": "-1"
+        },
+        "CO": {
+          "color_id": "0",
+          "aqi": "-1",
+          "value": "-1"
+        },
+        "NO2": {
+          "color_id": "0",
+          "aqi": "-1",
+          "value": "-1"
+        },
+        "SO2": {
+          "color_id": "0",
+          "aqi": "-1",
+          "value": "-1"
+        },
+        "AQI": {
+          "color_id": "-2",
+          "aqi": "45",
+          "param": "PM25"
+        }
+      }
+    }
+  ]
+}

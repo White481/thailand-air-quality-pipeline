@@ -42,21 +42,20 @@ Requirements: Python 3.11+
 ```bash
 git clone https://github.com/White481/thailand-air-quality-pipeline.git
 cd thailand-air-quality-pipeline
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-cp .env.example .env   # fill in values
+make install
+cp .env.example .env   # optional overrides
 ```
 
-Run the tests:
+| Command | What it does |
+|---|---|
+| `make test` | Run the unit tests |
+| `make extract` | Fetch the latest Air4Thai readings into `data/raw/air4thai/dt=YYYY-MM-DD/` (UTC fetch date) |
 
-```bash
-pytest
-```
+> **TLS note:** `air4thai.pcd.go.th` serves an incomplete certificate chain, so standard Python clients fail verification. The missing Let's Encrypt intermediates are bundled in `extract/certs/` and added to certifi's CA bundle at runtime — verification stays fully on.
 
 ## Roadmap
 
-- [ ] Extract hourly readings from Air4Thai
+- [x] Extract hourly readings from Air4Thai
 - [ ] Parse and flatten station readings
 - [ ] Validate data quality (missing values, sentinel values, ranges)
 - [ ] Write date-partitioned Parquet
